@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*........ invisible scrolls on body........*/
+body::-webkit-scrollbar {
+    width: 0px;
+     background: transparent; /* Chrome/Safari/Webkit */
+}
+
+body{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    font-family: 'Roboto', sans-serif;
+}
+/*........ /invisible scrolls on body........*/
+
+
+.navbar-nav > li{
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.stimuli-index-page h4{
+    text-align: center;
+    color: #808080;
+    opacity: 0.8;
+}
+
+.stimuli-index-page hr{
+    height: 3px;
+    border-radius: 100px;
+    color: #0000FF;
+}
+
+.stimuli-index-page h1{
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 7px;
+}
+
+.stimuli-index-page p{
+    text-align: center;
+    font-weight: 800;
+}
+
+.enquiry-button:hover,
+.enquiry-button:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    transform: translateY(-0.25em);
+    text-shadow: #808080;
+}
+
+
+/* About us */
+
+.stimuli-about_us-page hr{
+    height: 3px;
+    border-radius: 100px;
+    color: #ffffff;
+    opacity: 0.2;
+    width: 35%;
+    position: relative;
+    left: 35%;
+    display: inline-block;
+}
+
+.about_us-heading h1{
+    letter-spacing: 5px;
+}
+
+/* About us */
+
+
+
+
+
+/* -----------------------------------------------Footer----------------------------------------------- */
+.full-footer{
+    background-color: #222222;
+}
+
+.top-footer p{
+    color: white;
+}
+
+.top-footer a{
+    color: white;
+    font-weight: 600;
+}
+
+.top-footer h3{
+    color: white;
+}
+
+.bottom-footer{
+    background-color: #222222;
+}
+
+.bottom-footer p{
+    color: white;
+}
+
+/* -----------------------------------------------/Footer----------------------------------------------- */
