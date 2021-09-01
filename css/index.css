@@ -13,6 +13,12 @@ body{
     -ms-overflow-style: none;  /* IE 10+ */
     font-family: 'Quicksand', sans-serif;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /*........ /invisible scrolls on body........*/
 
 
@@ -74,7 +80,7 @@ p{
 }
 
 #stimuli-react_out input, textarea{
-    box-shadow: 1px 1px 5px 1px #0000FF;
+    box-shadow: 0px 8px 10px -10px #0000FF;
 }
 
 
@@ -100,18 +106,18 @@ p{
 .home-newsLetter{
     background-color: #E3FCFC;
     color: #000000;
+    border-radius: 10px;
 }
 
 .home-newsLetter .form-control{
     height: 50px;
     background-color: transparent;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
 }
 
 .home-newsLetter .btn{
     min-height: 50px;
-    border-radius: 0 20px 20px 0;
-    /* background-color: #46ffff; */
+    border-radius: 10px;
     color: #000000;
 }
 /* / Newsletter */
